@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "opencv-hw"
+version = "0.1.0"
+description = ""
+authors = ["miohitokiri5474 <lltzpp>"]
+package-mode = false
+readme = "README.md"
+packages = [{include = "opencv_hw"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.8.1.78"
+scipy = [
+    {version = "<=3.9", python = ">=3.9,<3.13"},
+]
+
+numpy = "1.25.2"
+opencv_python = "4.8.1.78"
+packaging = "^23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
