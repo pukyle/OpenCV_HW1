@@ -1,4 +1,4 @@
-# OpenCV Homework 1 – Image Processing with PyQt5 GUI  
+# OpenCVDl Homework 1 – Image Processing with PyQt5 GUI  
 
 ---
 
